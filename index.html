@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de pesquisa</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Pesquisa de satisfação</h1>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+    </div>
+ 
+     <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+
+            <div  class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+        
+
+        <div  class="campo" >
+            <label><strong>Qual sua função atualmente?</strong></label><br>
+            <label>
+                <input type="radio" name="cliente" value="iestudante">Estudante
+            </label>
+            <label>
+                <input type="radio" name="cliente" id="iformado">Formado no 2° Grau
+            </label>
+            <label>
+                <input type="radio" name="cliente" id="iensinosup">Ensino Superior Completo
+            </label>
+            <label>
+                <input type="radio" name="cliente" id="icursando">Ensino Superior cursando
+            </label>
+        </div>
+
+
+        <div>
+            <label for="senioridade"><strong>Nos conheceu através:</strong></label>
+            <select id="senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Instagram</option>
+                <option>Google</option>
+                <option>Indicação de amigos</option>
+            </select>
+        </div>
+<br>
+
+        <fieldset class="grupo">
+                <div id="check">
+                    <label><strong><strong>O que você gostaria que melhorassemos:</strong></strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1"> Variedade de produtos</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2">Atendimento</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3"> Prazo de entrega</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                    <label for="tecnologia4"> Redes sociais</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <div  class="campo" >
+            <br>
+            <label><strong>Comente um pouco sobre suas sugestões:</strong></label> <br>
+            <textarea class="text" row="10"  id="experiencia" name="experiencia"> </textarea>
+        </div>
+
+        <button class="botao" type="submit">Concluído</button>
+
+
+     </form>
+    
+ 
+  
+    
+</body>
+</html>
