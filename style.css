@@ -9,25 +9,24 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 * {
     padding: 0; margin: 0; 
-    
+
     
 }
 
 
 #titulo {
-    font-family:  sans-serif;
+    font-family: 'Sriracha', cursive;;
     color: rgba(0, 0, 98, 0.872);
     margin-left: 7%;
+    font-size: 2em;
+   
     
 }
 
-#subtitulo {
-    font-family: sans-serif;
-    color: rgba(0, 0, 98, 0.872);
-    margin-left: 10%;
-}
 
 fieldset {
     border: 0;
@@ -35,19 +34,42 @@ fieldset {
 
 
 
-body {
-    background-color: #F0F8FF;
-    font-family: sans-serif;
-    font-size: 1em;
-    color: rgba(0, 0, 98, 0.872);
-    margin-left: 36%;
-    margin-top:2%;
-    justify-content: center;
-    
-    
-    
-    
+main {
+    width: 35vw;
+    height: 90vh;
+    border: 2px solid;
+    box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.267);
+    margin-top: 2%;
+    margin-left: 450px;
+    padding-left: 110px;
+   
+    background-color: #17035545;
+
+
 }
+
+
+
+
+
+#banner:after{
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../projeto-formulario/imagens/fundo.jpg); 
+    width: 103%;
+    height: 103%;
+    opacity : 0.3;
+    z-index: -1;
+    background-size:contain ;
+    background-size: cover;
+ }
+
+
+
+
 
 input , select , textarea,button {
     border-radius: 5px;
@@ -69,6 +91,8 @@ input , select , textarea,button {
 fieldset.grupo .campo {
     float: left;
     margin-right: 1em;
+    
+    
 }
 
 .campo input [type= "text"], .campo input [type = "email"] , .campo select, .campo textarea {
@@ -98,9 +122,10 @@ fieldset.grupo .campo {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 57%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .botao:hover {
@@ -115,8 +140,10 @@ fieldset.grupo .campo {
 
 .text {
     width: 26em;
-    height: -20px;
+    height: 3em;
 }
+
+
 
 
 
