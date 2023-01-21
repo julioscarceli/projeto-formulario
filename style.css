@@ -9,7 +9,7 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
 * {
     padding: 0; margin: 0; 
@@ -19,10 +19,11 @@ Grandes telas: acima de 1200px
 
 
 #titulo {
-    font-family: 'Sriracha', cursive;;
-    color: rgba(0, 0, 98, 0.872);
-    margin-left: 7%;
-    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    margin-left: -5%;
+    padding-top: 3px;
+    font-size: 2.3em;
    
     
 }
@@ -36,14 +37,15 @@ fieldset {
 
 main {
     width: 35vw;
-    height: 90vh;
+    height: 99vh;
     border: 2px solid;
     box-shadow: 6px 8px 8px rgba(0, 0, 0, 0.267);
     margin-top: 2%;
     margin-left: 450px;
     padding-left: 110px;
    
-    background-color: #17035545;
+    background-color: #170355b4;
+
 
 
 }
@@ -60,7 +62,7 @@ main {
     left: 0;
     background-image: url(../projeto-formulario/imagens/fundo.jpg); 
     width: 103%;
-    height: 103%;
+    height: 110%;
     opacity : 0.3;
     z-index: -1;
     background-size:contain ;
@@ -73,24 +75,31 @@ main {
 
 input , select , textarea,button {
     border-radius: 5px;
+    
 }
 
 
 .campo {
     margin-bottom: 1em;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-size: 0.9em;
 
 }
 
 .campo label {
     margin-bottom: 0.2em;
-    color: #210479;
     display: block;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
    
 }
 
 fieldset.grupo .campo {
     float: left;
     margin-right: 1em;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
     
     
 }
@@ -100,15 +109,19 @@ fieldset.grupo .campo {
     border: 1px solid #210479;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
+    
 }
 
 .campo select option {
     padding-right: 1em;
+    
+    
 }
 
 
 .campo input:focus , .campo textarea:focus {
     background: #E0E0F8;
+    
 }
 
 .botao {
@@ -121,10 +134,11 @@ fieldset.grupo .campo {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.46);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 90%;
-    left: 57%;
+    top: 98%;
+    left: 54%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+
     
 }
 
@@ -136,12 +150,24 @@ fieldset.grupo .campo {
 
 .check {
     display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    
+    
 }
 
 .text {
     width: 26em;
     height: 3em;
+    
 }
+
+.letra {
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+
+
 
 
 
