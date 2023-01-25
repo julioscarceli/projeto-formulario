@@ -9,6 +9,9 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
 * {
@@ -98,6 +101,7 @@ input , select , textarea,button {
 fieldset.grupo .campo {
     float: left;
     margin-right: 1em;
+    margin-bottom: 1em;
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
     
